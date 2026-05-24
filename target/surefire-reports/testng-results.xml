@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="26" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-24T12:32:12 IST" name="OrangeHRM Suite" finished-at="2026-05-24T12:42:03 IST" duration-ms="590516">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-24T12:32:12 IST" name="OrangeHRM Automation Tests - Chrome" finished-at="2026-05-24T12:42:03 IST" duration-ms="590516">
+      <class name="cucumberrunner.ChromeTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:12 IST" name="setUpClass" finished-at="2026-05-24T12:32:13 IST" duration-ms="353" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@4d2f8ee7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:13 IST" name="setupBrowser" finished-at="2026-05-24T12:32:13 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:20 IST" duration-ms="6877" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 1 - Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:25 IST" duration-ms="4822" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 2 - Login with invalid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:30 IST" duration-ms="5254" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 3 - Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:34 IST" duration-ms="3853" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 4 - Login with blank credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:34 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:38 IST" duration-ms="3884" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 5 - Verify all UI elements on Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:43 IST" duration-ms="5034" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 6 - Verify error message for invalid login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:43 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:32:47 IST" duration-ms="4410" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 7 - Verify forgot password link navigation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:32:47 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:34:19 IST" duration-ms="91922" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 8 - Reset password with valid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:34:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:34:28 IST" duration-ms="8616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 9 - Reset password with invalid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:34:28 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:36:06 IST" duration-ms="98294" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 10 - Verify success message after reset"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:36:06 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:36:13 IST" duration-ms="6718" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 11 - Verify Admin page access after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:36:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:36:22 IST" duration-ms="9540" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 12 - Search user by username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:36:22 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:36:49 IST" duration-ms="26899" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 13 - Add a new user with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:36:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:37:11 IST" duration-ms="21909" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 14 - Edit existing user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:37:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:37:42 IST" duration-ms="31130" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 15 - Delete an existing user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:37:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:38:04 IST" duration-ms="21960" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 16 - Add a new employee"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:38:04 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:38:19 IST" duration-ms="14613" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 17 - Search employee by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:38:19 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:38:53 IST" duration-ms="34012" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 18 - Edit employee details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:38:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:39:37 IST" duration-ms="44186" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 19 - Upload employee profile picture"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:39:37 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:40:10 IST" duration-ms="32921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 20 - Delete employee record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:40:10 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:40:24 IST" duration-ms="14766" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 21 - Verify My Info page access"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:40:24 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:40:51 IST" duration-ms="26622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 22 - Update personal details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:40:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:41:23 IST" duration-ms="32054" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 23 - Update contact details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:41:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:41:38 IST" duration-ms="14759" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 24 - Save and verify updated information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:41:38 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:41:49 IST" duration-ms="11086" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 25 - Verify logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:41:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T12:42:03 IST" duration-ms="13912" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 26 - Verify session termination after logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberrunner.ChromeTestRunner@3270d194]" started-at="2026-05-24T12:42:03 IST" name="tearDownClass" finished-at="2026-05-24T12:42:03 IST" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberrunner.ChromeTestRunner -->
+    </test> <!-- OrangeHRM Automation Tests - Chrome -->
+  </suite> <!-- OrangeHRM Suite -->
+</testng-results>

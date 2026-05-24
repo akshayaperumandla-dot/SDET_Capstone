@@ -1,0 +1,525 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="26" passed="23" failed="3" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-05-24T19:09:24 IST" name="Default suite" finished-at="2026-05-24T19:23:34 IST" duration-ms="849788">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2026-05-24T19:09:24 IST" name="Default test" finished-at="2026-05-24T19:23:34 IST" duration-ms="849788">
+      <class name="cucumberrunner.ChromeTestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:24 IST" name="setUpClass" finished-at="2026-05-24T19:09:25 IST" duration-ms="886" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@629dfb5a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setupBrowser()[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:25 IST" name="setupBrowser" finished-at="2026-05-24T19:09:25 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupBrowser -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:25 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:09:35 IST" duration-ms="9729" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 1 - Login with valid username and password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:35 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:09:42 IST" duration-ms="7196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 2 - Login with invalid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:09:51 IST" duration-ms="9538" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 3 - Login with invalid password"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:09:51 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:10:02 IST" duration-ms="10761" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 4 - Login with blank credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:10:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:10:09 IST" duration-ms="6716" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 5 - Verify all UI elements on Login page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:10:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:10:23 IST" duration-ms="14128" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 6 - Verify error message for invalid login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Login Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:10:23 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:10:30 IST" duration-ms="6916" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 7 - Verify forgot password link navigation"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:10:30 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:12:11 IST" duration-ms="101013" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 8 - Reset password with valid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'orangehrm-forgot-password-title')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62727}, goog:processID: 5852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62727/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c439c9b2ca05deb04780cb4dd6210d1]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'orangehrm-forgot-password-title')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62727}, goog:processID: 5852, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62727/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7c439c9b2ca05deb04780cb4dd6210d1
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Pages.ForgotPasswordPage.getSuccessMessage(ForgotPasswordPage.java:63)
+at stepDefinitions.ForgotPasswordsteps.user_should_see_success_message(ForgotPasswordsteps.java:54)
+at ✽.User should see a success message "Reset Password link sent successfully"(file:///C:/Users/aksha/OneDrive/Desktop/capstoneProject/src/test/resources/features/02_ForgotPassword.feature:19)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:12:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:13:02 IST" duration-ms="50935" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 9 - Reset password with invalid username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:13:02 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:14:46 IST" duration-ms="104255" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 10 - Verify success message after reset"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Forgot Password Module"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'orangehrm-forgot-password-title')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58960}, goog:processID: 4864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58960/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e6a561f313716fcad0ba7a2a2454f3f]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, 'orangehrm-forgot-password-title')] (tried for 30 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58960}, goog:processID: 4864, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58960/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 1e6a561f313716fcad0ba7a2a2454f3f
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Pages.ForgotPasswordPage.getSuccessMessage(ForgotPasswordPage.java:63)
+at stepDefinitions.ForgotPasswordsteps.user_should_see_success_message(ForgotPasswordsteps.java:54)
+at ✽.User should see a success message "Reset Password link sent successfully"(file:///C:/Users/aksha/OneDrive/Desktop/capstoneProject/src/test/resources/features/02_ForgotPassword.feature:31)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:14:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:14:59 IST" duration-ms="12563" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 11 - Verify Admin page access after login"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:14:59 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:15:14 IST" duration-ms="15340" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 12 - Search user by username"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:15:14 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:15:46 IST" duration-ms="32127" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 13 - Add a new user with valid details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:15:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:16:13 IST" duration-ms="26795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 14 - Edit existing user details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:16:13 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:17:40 IST" duration-ms="86753" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 15 - Delete an existing user"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Admin Module - User Management"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='oxd-table-card'][.//div[text()='AutoUserBDDebc8a']]//button[.//i[contains(@class, 'bi-trash')]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3364946a52027946511ce968e22229e7]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='oxd-table-card'][.//div[text()='AutoUserBDDebc8a']]//button[.//i[contains(@class, 'bi-trash')]] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: '4.18.1', revision: 'b1d3319b48'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.10'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54335}, goog:processID: 14300, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54335/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 3364946a52027946511ce968e22229e7
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at Utils.WaitUtils.waitForClickable(WaitUtils.java:28)
+at Base.Baseclass.click(Baseclass.java:19)
+at Pages.AdminPage.deleteUser(AdminPage.java:94)
+at stepDefinitions.Adminsteps.user_deletes_username(Adminsteps.java:77)
+at ✽.User deletes username "AutoUserBDD"(file:///C:/Users/aksha/OneDrive/Desktop/capstoneProject/src/test/resources/features/03_Admin.feature:33)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:17:40 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:18:00 IST" duration-ms="20244" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 16 - Add a new employee"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:18:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:18:46 IST" duration-ms="45795" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 17 - Search employee by ID"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:18:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:19:20 IST" duration-ms="34068" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 18 - Edit employee details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:19:20 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:19:57 IST" duration-ms="37553" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 19 - Upload employee profile picture"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:19:57 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:21:18 IST" duration-ms="80212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 20 - Delete employee record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["PIM Module - Employee Management"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:21:18 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:21:36 IST" duration-ms="17869" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 21 - Verify My Info page access"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:21:36 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:22:07 IST" duration-ms="31641" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 22 - Update personal details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:22:07 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:22:42 IST" duration-ms="34589" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 23 - Update contact details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:22:42 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:23:00 IST" duration-ms="17811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 24 - Save and verify updated information"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["My Info Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:23:00 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:23:15 IST" duration-ms="15240" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 25 - Verify logout functionality"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:23:15 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2026-05-24T19:23:34 IST" duration-ms="18862" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Scenario 26 - Verify session termination after logout"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Logout Module"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:cucumberrunner.ChromeTestRunner@3d34d211]" started-at="2026-05-24T19:23:34 IST" name="tearDownClass" finished-at="2026-05-24T19:23:34 IST" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- cucumberrunner.ChromeTestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

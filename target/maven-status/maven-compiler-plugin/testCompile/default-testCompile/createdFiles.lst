@@ -1,0 +1,7 @@
+stepDefinitions\Adminsteps.class
+stepDefinitions\MyInfosteps.class
+stepDefinitions\PIMsteps.class
+cucumberrunner\ChromeTestRunner.class
+stepDefinitions\ForgotPasswordsteps.class
+Hooks\Hooks.class
+stepDefinitions\Loginsteps.class

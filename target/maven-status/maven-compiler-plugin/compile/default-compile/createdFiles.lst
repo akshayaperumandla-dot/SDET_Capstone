@@ -1,0 +1,10 @@
+Pages\ForgotPasswordPage.class
+Pages\PIMPage.class
+Pages\MyInfoPage.class
+Base\Baseclass.class
+Base\DriverSetup.class
+Pages\LoginPage.class
+Base\ConfigLoader.class
+Pages\AdminPage.class
+Utils\Screenshot.class
+Utils\WaitUtils.class
