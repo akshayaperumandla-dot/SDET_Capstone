@@ -14,6 +14,10 @@ public class Hooks {
 
     @Before
     public void setUp() {
+<<<<<<< HEAD
+=======
+        Utils.ScenarioContext.clear();
+>>>>>>> e36f405 (Initial commit)
         String browser = ConfigLoader.getInstance().getBrowser();
         boolean headless = ConfigLoader.getInstance().isHeadless();
         DriverSetup.setDriver(browser, headless);
@@ -23,6 +27,7 @@ public class Hooks {
 
     @After
     public void tearDown(Scenario scenario) {
+<<<<<<< HEAD
         WebDriver driver = DriverSetup.getDriver();
         if (driver != null) {
             if (scenario.isFailed()) {
@@ -30,6 +35,20 @@ public class Hooks {
                 scenario.attach(screenshot, "image/png", scenario.getName() + "_failure");
             }
             DriverSetup.quitDriver();
+=======
+        try {
+            WebDriver driver = DriverSetup.getDriver();
+            if (driver != null) {
+                if (scenario.isFailed()) {
+                    Utils.Screenshot.captureScreenshot(scenario.getName());
+                    final byte[] screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.BYTES);
+                    scenario.attach(screenshot, "image/png", scenario.getName() + "_failure");
+                }
+                DriverSetup.quitDriver();
+            }
+        } finally {
+            Utils.ScenarioContext.clear();
+>>>>>>> e36f405 (Initial commit)
         }
     }
 }

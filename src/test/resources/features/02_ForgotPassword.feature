@@ -12,11 +12,19 @@ Feature: Forgot Password Module
     Then User should be redirected to the Reset Password page
     And User should see username input field on Reset page
 
+<<<<<<< HEAD
   Scenario: Scenario 8 - Reset password with valid username
     When User clicks on the forgot password link
     And User enters username "Admin" on Reset page
     And User clicks on the reset password button
     Then User should see a success message "Reset Password link sent successfully"
+=======
+#  Scenario: Scenario 8 - Reset password with valid username
+#    When User clicks on the forgot password link
+#    And User enters username "Admin" on Reset page
+#    And User clicks on the reset password button
+#    Then User should see a success message "Reset Password link sent successfully"
+>>>>>>> e36f405 (Initial commit)
 
   Scenario: Scenario 9 - Reset password with invalid username
     When User clicks on the forgot password link
@@ -24,8 +32,16 @@ Feature: Forgot Password Module
     And User clicks on the reset password button
     Then User should see a success message "Reset Password link sent successfully"
 
+<<<<<<< HEAD
   Scenario: Scenario 10 - Verify success message after reset
     When User clicks on the forgot password link
     And User enters username "Admin" on Reset page
     And User clicks on the reset password button
     Then User should see a success message "Reset Password link sent successfully"
+=======
+#  Scenario: Scenario 10 - Verify success message after reset
+#    When User clicks on the forgot password link
+#    And User enters username "Admin" on Reset page
+#    And User clicks on the reset password button
+#    Then User should see a success message "Reset Password link sent successfully"
+>>>>>>> e36f405 (Initial commit)

@@ -59,6 +59,7 @@ public class Loginsteps {
 
     @Then("User should be redirected to the dashboard page")
     public void user_should_be_redirected_to_dashboard() {
+<<<<<<< HEAD
         boolean redirected = false;
         for (int i = 0; i < 15; i++) {
             if (loginPage.getCurrentUrl().contains("dashboard")) {
@@ -72,6 +73,9 @@ public class Loginsteps {
             }
         }
         Assert.assertTrue(redirected, "Not on dashboard page. Current URL: " + loginPage.getCurrentUrl());
+=======
+        Assert.assertTrue(loginPage.getCurrentUrl().contains("dashboard"), "Not on dashboard page.");
+>>>>>>> e36f405 (Initial commit)
     }
 
     @Then("User logs out successfully")
@@ -103,6 +107,7 @@ public class Loginsteps {
 
     @Then("User should be redirected to the login page")
     public void user_should_be_redirected_to_login_page() {
+<<<<<<< HEAD
         boolean redirected = false;
         for (int i = 0; i < 15; i++) {
             if (loginPage.getCurrentUrl().contains("login")) {
@@ -116,5 +121,8 @@ public class Loginsteps {
             }
         }
         Assert.assertTrue(redirected, "Not on login page. Current URL: " + loginPage.getCurrentUrl());
+=======
+        Assert.assertTrue(loginPage.getCurrentUrl().contains("login"), "Not on login page.");
+>>>>>>> e36f405 (Initial commit)
     }
 }

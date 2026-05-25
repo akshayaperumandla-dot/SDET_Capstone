@@ -10,7 +10,12 @@ import org.testng.annotations.BeforeClass;
     glue = {"stepDefinitions", "Hooks"},
     plugin = {
         "pretty",
+<<<<<<< HEAD
         "html:reports/cucumber-reports.html"
+=======
+        "html:reports/cucumber-reports.html",
+        "json:reports/cucumber.json"
+>>>>>>> e36f405 (Initial commit)
     },
     monochrome = true
 )

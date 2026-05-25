@@ -14,6 +14,7 @@ public class Baseclass {
         this.driver = DriverSetup.getDriver();
     }
 
+<<<<<<< HEAD
     protected void click(By locator) {
         try {
             WaitUtils.waitForClickable(locator).click();
@@ -31,6 +32,20 @@ public class Baseclass {
     }
 
     protected void type(By locator, String text) {
+=======
+    protected void waitForFormLoader() {
+        By formLoader = By.xpath("//div[contains(@class, 'oxd-form-loader')] | //div[contains(@class, 'oxd-loading-spinner')]");
+        WaitUtils.waitForInvisibility(formLoader);
+    }
+
+    protected void click(By locator) {
+        waitForFormLoader();
+        WaitUtils.waitForClickable(locator).click();
+    }
+
+    protected void type(By locator, String text) {
+        waitForFormLoader();
+>>>>>>> e36f405 (Initial commit)
         WebElement element = WaitUtils.waitForVisibility(locator);
         element.sendKeys(Keys.CONTROL + "a");
         element.sendKeys(Keys.BACK_SPACE);
@@ -52,6 +67,7 @@ public class Baseclass {
     public void selectCustomDropdown(By dropdownLocator, String optionText) {
         click(dropdownLocator);
         try {
+<<<<<<< HEAD
             Thread.sleep(1500); // Wait for dropdown options to open
         } catch (InterruptedException e) {
             e.printStackTrace();
@@ -70,6 +86,14 @@ public class Baseclass {
                 throw ex;
             }
         }
+=======
+            Thread.sleep(1000); // Wait for dropdown options
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        By optionLocator = By.xpath("//div[@role='listbox']//*[contains(text(), '" + optionText + "')]");
+        click(optionLocator);
+>>>>>>> e36f405 (Initial commit)
     }
 
     public void logout() {

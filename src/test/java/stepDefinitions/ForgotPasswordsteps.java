@@ -19,6 +19,7 @@ public class ForgotPasswordsteps {
 
     @Then("User should be redirected to the Reset Password page")
     public void user_should_be_redirected_to_reset_page() {
+<<<<<<< HEAD
         boolean redirected = false;
         for (int i = 0; i < 15; i++) {
             if (forgotPasswordPage.getCurrentUrl().contains("requestPasswordResetCode")) {
@@ -32,6 +33,9 @@ public class ForgotPasswordsteps {
             }
         }
         Assert.assertTrue(redirected, "Not on Reset Password page. Current URL: " + forgotPasswordPage.getCurrentUrl());
+=======
+        Assert.assertTrue(forgotPasswordPage.getCurrentUrl().contains("requestPasswordResetCode"));
+>>>>>>> e36f405 (Initial commit)
     }
 
     @Then("User should see username input field on Reset page")

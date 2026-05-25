@@ -38,10 +38,20 @@ public class WaitUtils {
 
     public static boolean waitForInvisibility(By locator) {
         try {
+<<<<<<< HEAD
+=======
+            DriverSetup.getDriver().manage().timeouts().implicitlyWait(Duration.ZERO);
+>>>>>>> e36f405 (Initial commit)
             getWait().until(ExpectedConditions.invisibilityOfElementLocated(locator));
             return true;
         } catch (Exception e) {
             return false;
+<<<<<<< HEAD
+=======
+        } finally {
+            int timeout = ConfigLoader.getInstance().getTimeout();
+            DriverSetup.getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(timeout));
+>>>>>>> e36f405 (Initial commit)
         }
     }
 

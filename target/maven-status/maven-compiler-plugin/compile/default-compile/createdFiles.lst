@@ -4,6 +4,10 @@ Pages\MyInfoPage.class
 Base\Baseclass.class
 Base\DriverSetup.class
 Pages\LoginPage.class
+<<<<<<< HEAD
+=======
+Utils\ScenarioContext.class
+>>>>>>> e36f405 (Initial commit)
 Base\ConfigLoader.class
 Pages\AdminPage.class
 Utils\Screenshot.class

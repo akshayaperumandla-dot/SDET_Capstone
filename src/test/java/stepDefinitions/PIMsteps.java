@@ -5,8 +5,11 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.testng.Assert;
 import Pages.PIMPage;
+<<<<<<< HEAD
 import java.io.File;
 import java.nio.file.Files;
+=======
+>>>>>>> e36f405 (Initial commit)
 import java.util.UUID;
 
 // Step definitions for the PIM module features
@@ -98,6 +101,7 @@ public class PIMsteps {
 
     @When("User uploads and saves profile picture {string}")
     public void user_uploads_and_saves_profile_picture(String path) {
+<<<<<<< HEAD
         File file = new File(path);
         boolean createdTemp = false;
         if (!file.exists()) {
@@ -117,5 +121,8 @@ public class PIMsteps {
                 file.delete();
             }
         }
+=======
+        pimPage.uploadPhotograph(path);
+>>>>>>> e36f405 (Initial commit)
     }
 }

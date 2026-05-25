@@ -10,24 +10,54 @@ Feature: PIM Module - Employee Management
 
   Scenario: Scenario 16 - Add a new employee
     When User clicks on the Add Employee tab
+<<<<<<< HEAD
     And User enters employee details: First Name "John", Middle Name "Test", Last Name "DoeBDD"
+=======
+    And User enters employee details: First Name "John111", Middle Name "Testii", Last Name "DoeBDD"
+>>>>>>> e36f405 (Initial commit)
     And User saves the new employee record
     Then Employee should be saved and Employee ID should be captured
 
   Scenario: Scenario 17 - Search employee by ID
+<<<<<<< HEAD
+=======
+    When User clicks on the Add Employee tab
+    And User enters employee details: First Name "John111", Middle Name "Testii", Last Name "DoeBDD"
+    And User saves the new employee record
+>>>>>>> e36f405 (Initial commit)
     When User searches for employee by captured ID
     Then User should find the employee in search results
 
   Scenario: Scenario 18 - Edit employee details
+<<<<<<< HEAD
+=======
+    When User clicks on the Add Employee tab
+    And User enters employee details: First Name "John111", Middle Name "Testii", Last Name "DoeBDD"
+    And User saves the new employee record
+>>>>>>> e36f405 (Initial commit)
     When User edits employee nickname to "QABDD"
     Then Employee nickname should be updated to "QABDD"
 
   Scenario: Scenario 19 - Upload employee profile picture
+<<<<<<< HEAD
     When User clicks on the employee profile picture to edit
+=======
+    When User clicks on the Add Employee tab
+    And User enters employee details: First Name "John111", Middle Name Testii", Last Name "DoeBDD"
+    And User saves the new employee record
+    When User edits employee nickname to "QABDD"
+    And User clicks on the employee profile picture to edit
+>>>>>>> e36f405 (Initial commit)
     And User uploads and saves profile picture "src/test/resources/dummy.png"
     Then Employee nickname should be updated to "QABDD"
 
   Scenario: Scenario 20 - Delete employee record
+<<<<<<< HEAD
+=======
+    When User clicks on the Add Employee tab
+    And User enters employee details: First Name "John111", Middle Name "Testii", Last Name "DoeBDD"
+    And User saves the new employee record
+>>>>>>> e36f405 (Initial commit)
     When User deletes the employee with captured ID
     And User searches for employee by captured ID
     Then User should not find the employee in search results

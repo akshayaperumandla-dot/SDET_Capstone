@@ -20,28 +20,44 @@
     </properties>
 
     <dependencies>
+<<<<<<< HEAD
         <!-- Source: https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
+=======
+        <!-- Selenium Java -->
+>>>>>>> e36f405 (Initial commit)
         <dependency>
             <groupId>org.seleniumhq.selenium</groupId>
             <artifactId>selenium-java</artifactId>
             <version>${selenium.version}</version>
         </dependency>
 
+<<<<<<< HEAD
        <!-- Source: https://mvnrepository.com/artifact/org.testng/testng -->
+=======
+        <!-- TestNG -->
+>>>>>>> e36f405 (Initial commit)
         <dependency>
             <groupId>org.testng</groupId>
             <artifactId>testng</artifactId>
             <version>${testng.version}</version>
         </dependency>
 
+<<<<<<< HEAD
        <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-java -->
+=======
+        <!-- Cucumber Java -->
+>>>>>>> e36f405 (Initial commit)
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-java</artifactId>
             <version>7.15.0</version>
         </dependency>
 
+<<<<<<< HEAD
        <!-- Source: https://mvnrepository.com/artifact/io.cucumber/cucumber-testng -->
+=======
+        <!-- Cucumber TestNG -->
+>>>>>>> e36f405 (Initial commit)
         <dependency>
             <groupId>io.cucumber</groupId>
             <artifactId>cucumber-testng</artifactId>
@@ -79,7 +95,11 @@
             <version>${log4j.version}</version>
         </dependency>
 
+<<<<<<< HEAD
        <!-- Source: https://mvnrepository.com/artifact/io.github.bonigarcia/webdrivermanager -->
+=======
+        <!-- WebDriverManager (Optional but recommended for fallback compatibility) -->
+>>>>>>> e36f405 (Initial commit)
         <dependency>
             <groupId>io.github.bonigarcia</groupId>
             <artifactId>webdrivermanager</artifactId>

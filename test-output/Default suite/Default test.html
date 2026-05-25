@@ -55,11 +55,19 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
+<<<<<<< HEAD
 <td>Tests passed/Failed/Skipped:</td><td>14/12/0</td>
 </tr><tr>
 <td>Started on:</td><td>Mon May 25 06:15:16 IST 2026</td>
 </tr>
 <tr><td>Total time:</td><td>866 seconds (866859 ms)</td>
+=======
+<td>Tests passed/Failed/Skipped:</td><td>19/5/0</td>
+</tr><tr>
+<td>Started on:</td><td>Mon May 25 21:15:31 IST 2026</td>
+</tr>
+<tr><td>Total time:</td><td>960 seconds (960490 ms)</td>
+>>>>>>> e36f405 (Initial commit)
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -76,6 +84,7 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 8 - Reset password with valid username", "Forgot Password Module"</td>
 <td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.xpath: //h6[contains(@class, &apos;orangehrm-forgot-password-title&apos;)] (tried for 30 second(s) with 500 milliseconds interval)
 Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
@@ -434,6 +443,214 @@ Session ID: 9048de429fb0bef3994b2add80ae07be
 	at ✽.User deletes the employee with captured ID(file:///C:/Users/aksha/OneDrive/Desktop/capstoneProject/src/test/resources/features/04_PIM.feature:31)
 </pre></div></td>
 <td>37</td>
+=======
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 13 - Add a new user with valid details", "Admin Module - User Management"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59025}, goog:processID: 17572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59025/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bda4ebbef0d8335d3aded81ddb6ca20d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD1&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:20)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1064279279", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1064279279'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59025}, goog:processID: 17572, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59025/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: bda4ebbef0d8335d3aded81ddb6ca20d
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD1&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:20)
+</pre></div></td>
+<td>31</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 15 - Delete an existing user", "Admin Module - User Management"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58255}, goog:processID: 5696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58255/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ab1730dc3d71278b65d2fb2f685241c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD3&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:38)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1798539562", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1798539562'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58255}, goog:processID: 5696, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58255/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7ab1730dc3d71278b65d2fb2f685241c
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD3&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:38)
+</pre></div></td>
+<td>31</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 14 - Edit existing user details", "Admin Module - User Management"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58349}, goog:processID: 2792, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58349/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7064e933e4e2336b3035f2c6fa7d5256
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD2&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:27)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1676585156", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1676585156'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for url to contain &quot;viewSystemUsers&quot;. Current url: &quot;https://opensource-demo.orangehrmlive.com/web/index.php/admin/saveSystemUser&quot; (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58349}, goog:processID: 2792, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58349/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7064e933e4e2336b3035f2c6fa7d5256
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Pages.AdminPage.fillAddUserForm(AdminPage.java:72)
+	at stepDefinitions.Adminsteps.user_fills_and_saves_user_form(Adminsteps.java:44)
+	at ✽.User fills and saves the user form with role &quot;ESS&quot;, employee &quot;Linda Anderson&quot;, status &quot;Enabled&quot;, username &quot;AutoUserBDD2&quot;, and password &quot;AdminPassword123!&quot;(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/03_Admin.feature:27)
+</pre></div></td>
+<td>31</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 19 - Upload employee profile picture", "PIM Module - Employee Management"</td>
+<td><div><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User enters employee details: First Name &quot;John111&quot;, Middle Name Testii&quot;, Last Name &quot;DoeBDD&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@When(&quot;User enters employee details: First Name {string}, Middle Name Testii\&quot;, Last Name \&quot;DoeBDD\&quot;&quot;)
+public void user_enters_employee_details_first_name_middle_name_testii_last_name_doe_bdd(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2096195291", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2096195291'><pre>io.cucumber.testng.UndefinedStepException: The step &apos;User enters employee details: First Name &quot;John111&quot;, Middle Name Testii&quot;, Last Name &quot;DoeBDD&quot;&apos; is undefined.
+You can implement this step using the snippet(s) below:
+
+@When(&quot;User enters employee details: First Name {string}, Middle Name Testii\&quot;, Last Name \&quot;DoeBDD\&quot;&quot;)
+public void user_enters_employee_details_first_name_middle_name_testii_last_name_doe_bdd(String string) {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+	at io.cucumber.core.runtime.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:69)
+	at io.cucumber.testng.TestCaseResultObserver.assertTestCasePassed(TestCaseResultObserver.java:23)
+	at io.cucumber.testng.TestNGCucumberRunner.lambda$runScenario$1(TestNGCucumberRunner.java:133)
+	at io.cucumber.core.runtime.CucumberExecutionContext.lambda$runTestCase$5(CucumberExecutionContext.java:137)
+	at io.cucumber.core.runtime.RethrowingThrowableCollector.executeAndThrow(RethrowingThrowableCollector.java:23)
+	at io.cucumber.core.runtime.CucumberExecutionContext.runTestCase(CucumberExecutionContext.java:137)
+	at io.cucumber.testng.TestNGCucumberRunner.runScenario(TestNGCucumberRunner.java:129)
+	at io.cucumber.testng.AbstractTestNGCucumberTests.runScenario(AbstractTestNGCucumberTests.java:35)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:228)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:961)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:201)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:819)
+	at org.testng.TestRunner.run(TestRunner.java:619)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:443)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:437)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:397)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:336)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1228)
+	at org.testng.TestNG.runSuites(TestNG.java:1134)
+	at org.testng.TestNG.run(TestNG.java:1101)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+</pre></div></td>
+<td>18</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 24 - Save and verify updated information", "My Info Module"</td>
+<td><div><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(@href, &apos;viewMyDetails&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60064}, goog:processID: 17104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60064/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d242bdec951f600b4e88b7bebf93663a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Utils.WaitUtils.waitForClickable(WaitUtils.java:28)
+	at Base.Baseclass.click(Baseclass.java:24)
+	at Pages.MyInfoPage.navigateToMyInfo(MyInfoPage.java:29)
+	at stepDefinitions.MyInfosteps.user_navigates_to_my_info(MyInfosteps.java:21)
+	at ✽.User navigates to the My Info module(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/05_MyInfo.feature:9)
+</pre></div><a href='#' onClick='toggleBox("stack-trace186966559", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace186966559'><pre>org.openqa.selenium.TimeoutException: Expected condition failed: waiting for element to be clickable: By.xpath: //a[contains(@href, &apos;viewMyDetails&apos;)] (tried for 15 second(s) with 500 milliseconds interval)
+Build info: version: &apos;4.18.1&apos;, revision: &apos;b1d3319b48&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.10&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 148.0.7778.179, chrome: {chromedriverVersion: 148.0.7778.178 (d096af1c9e9..., userDataDir: C:\Users\aksha\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:60064}, goog:processID: 17104, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:60064/devtoo..., se:cdpVersion: 148.0.7778.179, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: d242bdec951f600b4e88b7bebf93663a
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at Utils.WaitUtils.waitForClickable(WaitUtils.java:28)
+	at Base.Baseclass.click(Baseclass.java:24)
+	at Pages.MyInfoPage.navigateToMyInfo(MyInfoPage.java:29)
+	at stepDefinitions.MyInfosteps.user_navigates_to_my_info(MyInfosteps.java:21)
+	at ✽.User navigates to the My Info module(file:///C:/Users/aksha/OneDrive/Desktop/finalOutcome/src/test/resources/features/05_MyInfo.feature:9)
+</pre></div></td>
+<td>36</td>
+>>>>>>> e36f405 (Initial commit)
 <td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
 </table><p>
 <table width='100%' border='1' class='invocation-passed'>
@@ -445,6 +662,7 @@ Session ID: 9048de429fb0bef3994b2add80ae07be
 <td><b>Instance</b></td>
 </tr>
 <tr>
+<<<<<<< HEAD
 <td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 1 - Login with valid username and password", "Login Module"</td>
 <td></td>
 <td>10</td>
@@ -508,11 +726,105 @@ Session ID: 9048de429fb0bef3994b2add80ae07be
 <td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 21 - Verify My Info page access", "My Info Module"</td>
 <td></td>
 <td>28</td>
+=======
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 6 - Verify error message for invalid login", "Login Module"</td>
+<td></td>
+<td>9</td>
+>>>>>>> e36f405 (Initial commit)
 <td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
 <tr>
 <td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 26 - Verify session termination after logout", "Logout Module"</td>
 <td></td>
+<<<<<<< HEAD
 <td>11</td>
+=======
+<td>12</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 22 - Update personal details", "My Info Module"</td>
+<td></td>
+<td>105</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 4 - Login with blank credentials", "Login Module"</td>
+<td></td>
+<td>8</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 2 - Login with invalid username", "Login Module"</td>
+<td></td>
+<td>88</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 20 - Delete employee record", "PIM Module - Employee Management"</td>
+<td></td>
+<td>95</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 3 - Login with invalid password", "Login Module"</td>
+<td></td>
+<td>8</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 21 - Verify My Info page access", "My Info Module"</td>
+<td></td>
+<td>12</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 25 - Verify logout functionality", "Logout Module"</td>
+<td></td>
+<td>47</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 7 - Verify forgot password link navigation", "Forgot Password Module"</td>
+<td></td>
+<td>15</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 18 - Edit employee details", "PIM Module - Employee Management"</td>
+<td></td>
+<td>34</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 17 - Search employee by ID", "PIM Module - Employee Management"</td>
+<td></td>
+<td>22</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 23 - Update contact details", "My Info Module"</td>
+<td></td>
+<td>104</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 16 - Add a new employee", "PIM Module - Employee Management"</td>
+<td></td>
+<td>132</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 9 - Reset password with invalid username", "Forgot Password Module"</td>
+<td></td>
+<td>9</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 5 - Verify all UI elements on Login page", "Login Module"</td>
+<td></td>
+<td>55</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 11 - Verify Admin page access after login", "Admin Module - User Management"</td>
+<td></td>
+<td>9</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 12 - Search user by username", "Admin Module - User Management"</td>
+<td></td>
+<td>16</td>
+<td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
+<tr>
+<td title='cucumberrunner.ChromeTestRunner.runScenario()'><b>runScenario</b><br>Test class: cucumberrunner.ChromeTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Scenario 1 - Login with valid username and password", "Login Module"</td>
+<td></td>
+<td>20</td>
+>>>>>>> e36f405 (Initial commit)
 <td>cucumberrunner.ChromeTestRunner@3d34d211</td></tr>
 </table><p>
 </body>

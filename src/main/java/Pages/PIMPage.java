@@ -14,6 +14,7 @@ public class PIMPage extends Baseclass {
     private By firstNameInput = By.name("firstName");
     private By middleNameInput = By.name("middleName");
     private By lastNameInput = By.name("lastName");
+<<<<<<< HEAD
     private By employeeIdInput = By.xpath("//div[contains(@class, 'oxd-input-group')][.//label[text()='Employee Id']]//input");
     private By fileUploadInput = By.xpath("//input[@type='file']");
     private By saveButton = By.xpath("//button[@type='submit']");
@@ -24,6 +25,18 @@ public class PIMPage extends Baseclass {
     private By deleteConfirmButton = By.xpath("//button[contains(., 'Yes, Delete')]");
     private By nickNameInput = By.xpath("//div[contains(@class, 'oxd-input-group')][.//label[contains(text(), \"Driver's License Number\")]]//input");
     private By personalDetailsSaveButton = By.xpath("//h6[text()='Personal Details']/following::button[@type='submit'][1]");
+=======
+    private By employeeIdInput = By.xpath("//div[contains(@class, 'orangehrm-card-container')]//div[contains(@class, 'oxd-input-group')][.//label[text()='Employee Id']]//input");
+    private By fileUploadInput = By.xpath("//input[@type='file']");
+    private By saveButton = By.xpath("//button[@type='submit']");
+    private By searchEmpIdInput = By.xpath("//div[contains(@class, 'oxd-table-filter')]//div[contains(@class, 'oxd-input-group')][.//label[text()='Employee Id']]//input");
+    private By searchButton = By.xpath("//div[contains(@class, 'oxd-table-filter')]//button[@type='submit']");
+    private By tableRows = By.xpath("//div[@class='oxd-table-body']/div[contains(@class, 'oxd-table-card')]");
+    private By firstRowIdCell = By.xpath("//div[@class='oxd-table-body']/div[contains(@class, 'oxd-table-card')][1]//div[@role='cell'][2]");
+    private By deleteConfirmButton = By.xpath("//button[contains(., 'Yes, Delete')]");
+    private By nickNameInput = By.xpath("//div[contains(@class, 'oxd-input-group')][.//label[text()='Nickname']]//input");
+    private By personalDetailsSaveButton = By.xpath("//div[contains(@class, 'orangehrm-card-container')][.//h6[text()='Personal Details']]//button[@type='submit']");
+>>>>>>> e36f405 (Initial commit)
     private By profileImage = By.xpath("//div[@class='orangehrm-edit-employee-image']//img");
     private By personalDetailsTab = By.xpath("//a[text()='Personal Details']");
 
@@ -54,6 +67,7 @@ public class PIMPage extends Baseclass {
 
         if (profilePicPath != null && !profilePicPath.isEmpty()) {
             File pic = new File(profilePicPath);
+<<<<<<< HEAD
             if (pic.exists()) {
                 driver.findElement(fileUploadInput).sendKeys(pic.getAbsolutePath());
                 try {
@@ -61,6 +75,13 @@ public class PIMPage extends Baseclass {
                 } catch (InterruptedException e) {
                     e.printStackTrace();
                 }
+=======
+            driver.findElement(fileUploadInput).sendKeys(pic.getAbsolutePath());
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+>>>>>>> e36f405 (Initial commit)
             }
         }
 
@@ -74,6 +95,10 @@ public class PIMPage extends Baseclass {
     }
 
     public void searchEmployeeById(String empId) {
+<<<<<<< HEAD
+=======
+        navigateToPIM(); // Always ensure we are on the employee list page first
+>>>>>>> e36f405 (Initial commit)
         type(searchEmpIdInput, empId);
         click(searchButton);
         try {
@@ -89,6 +114,7 @@ public class PIMPage extends Baseclass {
 
     public void editEmployeeNickName(String empId, String nickName) {
         searchEmployeeById(empId);
+<<<<<<< HEAD
         By editButtonLocator = By.xpath("//div[@class='oxd-table-card'][.//div[text()='" + empId + "']]//button[.//i[contains(@class, 'bi-pencil-fill')]]");
         click(editButtonLocator);
         try {
@@ -97,6 +123,13 @@ public class PIMPage extends Baseclass {
             org.openqa.selenium.JavascriptExecutor js = (org.openqa.selenium.JavascriptExecutor) driver;
             js.executeScript("window.scrollTo(0, 300)");
             Thread.sleep(1000);
+=======
+        By editButtonLocator = By.xpath("//div[contains(@class, 'oxd-table-card')][.//*[normalize-space(text())='" + empId
+                + "']]//button[.//i[contains(@class, 'bi-pencil-fill')]]");
+        click(editButtonLocator);
+        try {
+            Thread.sleep(3000);
+>>>>>>> e36f405 (Initial commit)
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -111,6 +144,7 @@ public class PIMPage extends Baseclass {
     }
 
     public String getNickNameValue() {
+<<<<<<< HEAD
         try {
             Thread.sleep(3000);
             // Scroll down to make sure the field is visible
@@ -120,12 +154,18 @@ public class PIMPage extends Baseclass {
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
+=======
+>>>>>>> e36f405 (Initial commit)
         return driver.findElement(nickNameInput).getAttribute("value");
     }
 
     public void deleteEmployee(String empId) {
         searchEmployeeById(empId);
+<<<<<<< HEAD
         By deleteButtonLocator = By.xpath("//div[@class='oxd-table-card'][.//div[text()='" + empId + "']]//button[.//i[contains(@class, 'bi-trash')]]");
+=======
+        By deleteButtonLocator = By.xpath("//div[contains(@class, 'oxd-table-card')][.//*[normalize-space(text())='" + empId + "']]//button[.//i[contains(@class, 'bi-trash')]]");
+>>>>>>> e36f405 (Initial commit)
         click(deleteButtonLocator);
         click(deleteConfirmButton);
         try {
@@ -146,7 +186,11 @@ public class PIMPage extends Baseclass {
 
     public void clickEditForEmployee(String empId) {
         searchEmployeeById(empId);
+<<<<<<< HEAD
         By editButtonLocator = By.xpath("//div[@class='oxd-table-card'][.//div[text()='" + empId + "']]//button[.//i[contains(@class, 'bi-pencil-fill')]]");
+=======
+        By editButtonLocator = By.xpath("//div[contains(@class, 'oxd-table-card')][.//*[normalize-space(text())='" + empId + "']]//button[.//i[contains(@class, 'bi-pencil-fill')]]");
+>>>>>>> e36f405 (Initial commit)
         click(editButtonLocator);
         try {
             Thread.sleep(3000);
@@ -156,6 +200,7 @@ public class PIMPage extends Baseclass {
     }
 
     public void clickProfileImage() {
+<<<<<<< HEAD
         try {
             Thread.sleep(2000);
             org.openqa.selenium.WebElement img = driver.findElement(profileImage);
@@ -164,6 +209,13 @@ public class PIMPage extends Baseclass {
             Thread.sleep(3000);
         } catch (Exception e) {
             System.out.println("Could not click profile image: " + e.getMessage());
+=======
+        click(profileImage);
+        try {
+            Thread.sleep(3000);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+>>>>>>> e36f405 (Initial commit)
         }
     }
 

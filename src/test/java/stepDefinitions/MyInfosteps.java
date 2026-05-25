@@ -53,10 +53,13 @@ public class MyInfosteps {
         Assert.assertEquals(myInfoPage.getStreet1(), savedStreet);
         Assert.assertEquals(myInfoPage.getMobile(), savedMobile);
     }
+<<<<<<< HEAD
 
     @Then("User should be able to view contact details")
     public void user_should_be_able_to_view_contact_details() {
         Assert.assertTrue(myInfoPage.isContactDetailsTabDisplayed(),
             "Contact Details tab should be visible");
     }
+=======
+>>>>>>> e36f405 (Initial commit)
 }

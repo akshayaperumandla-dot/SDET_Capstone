@@ -4,6 +4,10 @@ C:\Users\Sathwik\oshire\src\main\java\Utils\WaitUtils.java
 C:\Users\Sathwik\oshire\src\main\java\Base\Baseclass.java
 C:\Users\Sathwik\oshire\src\main\java\Pages\AdminPage.java
 C:\Users\Sathwik\oshire\src\main\java\Pages\ForgotPasswordPage.java
+<<<<<<< HEAD
+=======
+C:\Users\Sathwik\oshire\src\main\java\Utils\ScenarioContext.java
+>>>>>>> e36f405 (Initial commit)
 C:\Users\Sathwik\oshire\src\main\java\Pages\MyInfoPage.java
 C:\Users\Sathwik\oshire\src\main\java\Utils\Screenshot.java
 C:\Users\Sathwik\oshire\src\main\java\Pages\LoginPage.java

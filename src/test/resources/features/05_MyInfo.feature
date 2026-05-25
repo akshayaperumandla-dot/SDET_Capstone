@@ -20,5 +20,10 @@ Feature: My Info Module
     Then Saved street should be "456 BDD St" and mobile should be "9876543210"
 
   Scenario: Scenario 24 - Save and verify updated information
+<<<<<<< HEAD
     Then User should see the Personal Details sub-tab
     And User should be able to view contact details
+=======
+    Then Saved nickname should be "BDDNick" and other ID should be "BDDID"
+    And Saved street should be "456 BDD St" and mobile should be "9876543210"
+>>>>>>> e36f405 (Initial commit)
